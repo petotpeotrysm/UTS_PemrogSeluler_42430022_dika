@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">UTS_GeneratorPenilaian</string>
+    <string name="generator_lembar_penilaian">Generator Lembar Penilaian</string>
+</resources>
