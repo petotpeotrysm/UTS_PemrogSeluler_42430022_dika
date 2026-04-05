@@ -1,49 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp">
 
     <TextView
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:text="@string/generator_lembar_penilaian"
-        android:textSize="22sp"
-        android:textStyle="bold" />
+        android:text="Login Dosen"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
 
     <EditText
-
-        android:id="@+id/edtNama"
+        android:id="@+id/etNama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nama Dosen" />
+        android:hint="Nama Dosen"
+        android:importantForAutofill="no"
+        tools:ignore="HardcodedText,TextFields" />
 
     <EditText
-
-        android:id="@+id/edtMatkul"
+        android:id="@+id/etMatkul"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Mata Kuliah" />
+        android:hint="Mata Kuliah"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
 
     <EditText
-
-        android:id="@+id/edtJumlah"
+        android:id="@+id/etJumlah"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Jumlah Mahasiswa"
-        android:inputType="number" />
+        android:inputType="number"
+        tools:ignore="Autofill,HardcodedText" />
 
     <Button
-
-        android:id="@+id/btnGenerate"
+        android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Generate Lembar" />
+        android:text="Masuk Panel"
+        tools:ignore="HardcodedText" />
 
 </LinearLayout>
