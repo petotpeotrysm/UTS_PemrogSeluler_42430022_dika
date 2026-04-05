@@ -20,7 +20,7 @@ class PanelActivity : AppCompatActivity() {
         val nama=intent.getStringExtra("nama")
         val matkul=intent.getStringExtra("matkul")
 
-        val jumlah=intent.getIntExtra("jumlah",0)
+        val jumlah=intent.getIntExtra("jumlah",1)
 
         // IF ELSE
         val status:String = if(jumlah>30){
